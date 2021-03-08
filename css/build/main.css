@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.body{
+    position: absolute;
+    width: 801px;
+    height: 929px;
+    left: -1px;
+    top: 91px;
+
+    
+}
+
+.firstname{
+    position: absolute;
+    width: 514px;
+    height: 44px;
+    left: 126px;
+    top: 192.33px;
+
+    background: #FFFFFF;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+
+.lastname {
+    position: absolute;
+    width: 514px;
+    height: 44px;
+    left: 126px;
+    top: 256.33px;
+
+    background: #FFFFFF;
+    border: 1px solid #343FFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.email{
+    position: absolute;
+    width: 514px;
+    height: 44px;
+    left: 126px;
+    top: 320.33px;
+
+    background: #FFFFFF;
+    border: 1px solid #FF3434;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
+

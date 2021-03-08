@@ -12,12 +12,9 @@
 <body class="bg-cw-gray-050 font-lato">
     <header class="container mx-auto max-w-6xl px-5">
         <div class="flex justify-between py-10 items-center">
-            <a href="#" class="flex justify-between items-center">
-                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M16.1213 0.639404L11.0459 15.5586L3.47113 13.0162L0.993164 5.61606L16.1213 0.639404Z" fill="#343DFF"/>
-                </svg>
-                <span class="text-xl font-lato text-cw-blue-100">Zengrowth</span>
-             </a>
+            <a href="#" class="flex md:ml-8 lg:ml-8">
+                <img class="lg:ml-72" src="./images/logo.svg" alt="Zengrowth Logo" />
+            </a>
              <ul class="hidden md:flex space-x-10">
                  <li><a href="#" class="">Services</a></li>
                  <li><a href="#" class="">About</a></li>
@@ -46,7 +43,7 @@
     </div>
     <main class="container mx-auto max-w-6xl px-5 border-cw-gray-200">
         <div class="md:w-1/2 mt-4 ml-6">
-            <h1 class="mb-3"><a href="#" class="font-lato font-normal mt-10 ml-16  leading-relaxed  text-xl text-cw-gray-900 leading-tight">Let as get to <p class="ml-12">know you better</p></a></h1>
+            <h1 class="mb-3"><a href="#" class="font-lato font-normal mt-10 ml-16  text-xl text-cw-gray-900 leading-tight">Let as get to <p class="ml-12">know you better</p></a></h1>
             <input class="placeholder-cw-blue-100 h-12 px-2 w-64 mt-8 font-lato rounded-lg text-sm focus:bg-cw-gray-100 outline-none shadow-outline" type="text" placeholder="Fitstname" required>
             <input class="placeholder-cw-gray-800 h-12 px-2 w-64 mt-8 font-lato border border-blue-300  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Lastname" required>
             <input class="placeholder-cw-gray-800 h-12 px-2 w-64 mt-8 font-lato border mb-6 border-orange-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="email" placeholder="Email" required>
@@ -55,7 +52,7 @@
        </div>
        <h2 class="font-bold mt-6">Tell as a bit more about your projecr:</h2>
        <section class="py-4 mb-8 hover:text-cw-gray-200 md:w-1/2">
-            <textarea class="w-full border-cw-gray-800 border-t outline-none shadow bg-white rounded-lg mt-6 text-cw-gray-200" cols="30" rows="8" placeholder="Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey."></textarea>
+            <textarea class="w-full p-6 border-cw-gray-800 border-t outline-none shadow bg-white rounded-lg mt-6 text-cw-gray-200" cols="30" rows="8" placeholder="Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey."></textarea>
        </section>
        <h2 class="mt-6 text-l font-bold">What areas of marketing are you interested in?</h2>
        <section>
@@ -123,7 +120,7 @@
             <option value=""></option>
             </select>
        </section>
-       <button class="bg-cw-blue-100 h-10 w-60 rounded-lg text-white w-full mt-2">START YOUR PROJECT</button>
+       <button class="bg-cw-blue-100 h-10 w-60 rounded-lg text-white mt-2">START YOUR PROJECT</button>
     </main>
     <section class="flex md:w-1/2 ml-auto mt-6 w-full">
         <div class="bg-cw-purple-200 md:w-1/2 p-16">
@@ -207,22 +204,10 @@
         </section>
         <div class="text-xs text-black-200 items-center pl-20">@ 2020 Zengrowth. All rights reserved</div>
     </footer>
-    <script>
-        const navMenu = document.querySelector('.navMenu-js');
-        
-        const menuBtn = document.querySelector('.menuBtn-js');
- 
-        const closeBtn = document.querySelector('.closeBtn-js');
- 
-        function toggleDropDown() {
-            navMenu.classList.toggle('hidden');
-            menuBtn.classList.toggle('hidden');
-            closeBtn.classList.toggle('hidden');
-        }
- 
-        menuBtn.addEventListener('click', toggleDropDown);
-        closeBtn.addEventListener('click',toggleDropDown);
-    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 </html>
 

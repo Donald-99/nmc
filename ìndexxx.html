@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zengrowth</title>
+    <link rel="stylesheet" href="css/prod/main.css">
+    <link rel="stylesheet" href="css/build/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<header class="bg-white ml-92">
+    <nav class="container p-10 font-lato">
+        <div class="flex items-center justify-between">
+            <a href="#" class="flex md:ml-6 lg:ml-8">
+                <img class="lg:ml-72" src="./images/logo.svg" alt="Zengrowth Logo" />
+            </a>
+            <ul class="hidden md:flex lg:justify-end">
+                <li class="mr-10 mt-2 text-cw-black-050">
+                    <a href="#" class="hover:text-cw-blue-600">Services</a>
+                </li>
+                <li class="mr-10 mt-2 text-cw-bleck-050">
+                    <a href="#" class="hover:text-cw-blue-600">About</a>
+                </li>
+                <li class="mr-10 mt-2 text-cw-bleck-050">
+                    <a href="#" class="hover:text-cw-blue-600">Blog</a>
+                </li>
+                <button class="text-white bg-cw-blue-100 rounded-lg  w-32 h-12 mr-10 mt-0 hover:bg-cw-blue-600">GET STARTED
+                </button>
+                <svg class="w-6 h-6 mt-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                </svg>
+    
+            </ul>
+            <div class="block md:hidden">
+                <button class="menuBtn-js">
+                    <svg class="w-6 h-6 ml-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                </button>
+                <button class="hidden closeBtn-js hover:text-cw-blue-600">
+                    <svg class="w-6 h-6 ml-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    <svg class="w-6 h-6 flex" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="md:hidden">
+        <nav class="hidden navMenu-js container mx-auto max-w-6xl px-5 ml-12">
+            <ul>
+                <li><a href="#" class="text-cw-gray-700 hover:text-cw-gray-900 hover:bg-blue-200 block p-3 w-full">Services</a></li>
+                <li><a href="#" class="text-cw-gray-700 hover:text-cw-gray-900 hover:bg-blue-200 block p-3">About</a></li>
+                <li><a href="#" class="text-cw-gray-700 hover:text-cw-gray-900 hover:bg-blue-200 block p-3">Blog</a></li>
+                <li>
+                    <button class="bg-cw-blue-100 h-10 w-60 rounded-lg text-white">GET STARTED</button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <main class="container mx-auto max-w-6xl px-5 border-cw-gray-200">
+        <div class="ms:w-1/2 mt-4">
+            <h1 class="mb-3"><a href="#" class="font-lato font-normal mt-10 lg:ml-96  text-xl text-cw-gray-900 leading-tight lg:text-3xl lg:text-center lg:font-bold">Let as get to know you better.</a></h1>
+            <input class="placeholder-cw-blue-100 h-12 px-2 w-full mt-8 font-lato border border-cw-gray-200 rounded-lg text-sm focus:bg-cw-gray-100 outline-none shadow-outline" type="text" placeholder="Fitstname" required>
+            <input class="placeholder-cw-gray-800 h-12 px-2 w-full mt-8 font-lato border border-blue-300  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Lastname" required>
+            <input class="placeholder-cw-gray-800 h-12 px-2 w-full mt-8 font-lato border border-orange-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="email" placeholder="Email" required>
+            <input class="placeholder-cw-gray-800 h-12 px-2 w-full mt-8 font-lato border border-cw-gray-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Phone Number" required>
+       </div>
+       <h2 class="font-bold mt-6 lg:mt-8">Tell as a bit more about your projecr:</h2>
+       <section class="py-4 mb-8 hover:text-cw-gray-200 md:w-1/2">
+            <textarea class="w-full p-6 border-cw-gray-800 border-t outline-none shadow bg-white rounded-lg mt-8 text-cw-gray-200" cols="30" rows="8" placeholder="Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey."></textarea>
+       </section>
+       <h2 class="lg:text-xl mt-6  font-bold">What areas of marketing are you interested in?</h2>
+       <section class="md:flex  md:grid-cols-2">
+            <div class="flex items-center lg:mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="ml-3 text-cw-gray-900">
+                    <span class="text-sm">Paid media and social</span> 
+                </div>
+            </div>
+            <div class="flex items-center lg:mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                    <label for="check"></label>
+                </div> 
+                <div class="text-text-cw-gray-900 lg:space-x-80">
+                    <span class="text-sm">Content</span> 
+                </div>
+            </div>
+       </section>
+       <section class="md:flex  md:grid-cols-2">
+            <div class="flex items-center lg:mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                    <label for="check"></label>
+                </div> 
+                <div class="text-text-cw-gray-900">
+                    <span class="text-sm">Tools & integrations</span> 
+                </div>
+            </div>
+            <div class="flex items-center lg:mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                    <label for="check"></label>
+                </div> 
+                <div class="text-text-cw-gray-900">
+                    <span class="text-sm">Lead Generation</span> 
+                </div>
+            </div>
+       </section>
+       <section class="md:flex  md:grid-cols-2">
+            <div class="flex items-center lg:mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                    <label for="check"></label>
+                </div> 
+                <div class="text-text-cw-gray-900">
+                    <span class="text-sm">Design or development</span> 
+                </div>
+            </div>
+            <div class="flex items-center lg:mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                    <label for="check"></label>
+                </div> 
+                <div class="text-text-cw-gray-900">
+                    <span class="text-sm">Growth strategy</span> 
+                </div>
+            </div>
+        </section>
+       <h2 class="font-bold mt-6">What's your monthyl budget look like?</h2>
+       <section>
+            <select name="cars" id="cars" class="w-full h-10 mt-4 rounded-lg border border-cw-gray-200">
+            <option value="" selected>Select Your Amount</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+            </select>
+       </section>
+       <button class="bg-cw-blue-100 h-10 w-full rounded-lg text-white mt-2">START YOUR PROJECT</button>
+    </main>
+    <section class="flex sm:w-1/2 ml-auto mt-6 md:w-full">
+        <div class="bg-cw-purple-200 md:w-full sm:w-1/2 p-16">
+            <div class="w-full">
+                <h4 class="text-white font-medium text-4xl leading-tight border-b-2 border-blue-300 pb-4 md:text-center">Get in touch</h4>
+                <p class="text-white py-4 items-center">Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey.</p>
+            </div>
+            <div class="flex items-center mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="ml-3 text-white">
+                    <span class="text-sm">Predictable Lead Generation</span> 
+                </div>
+            </div>
+            <div class="flex items-center mt-2">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="text-white">
+                    <span class="text-sm">Rapid Marketing Experimentation</span> 
+                </div>
+            </div>
+            <div class="flex items-center mt-2">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="text-white">
+                    <span class="text-sm">Lower Customer Acquisition Costs</span> 
+                </div>
+            </div>
+            <div class="flex items-center mt-2">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="text-white">
+                    <span class="text-sm">Increased Marketing ROI</span> 
+                </div>
+            </div>
+            <div class="border-b-2 border-blue-300 pb-4 mt-6">
+            </div>
+            <div class="mt-8 text-white text-xl">
+                <img src="./images/frm.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="border-t py-6 justify-center md:items-center">
+            <div class="container mx-auto max-w-xl px-5 flex flex-row lg:flex-row sm:justify-center md:justify-start">
+                <a href="#" class="md:flex md:ml-1 lg:ml-8">
+                    <img class="lg:ml-2 logo" src="./images/logo.svg" alt="Zengrowth Logo" />
+                </a>
+                <section class="sm:hidden border-t py-6 flex justify-between md:justify-end">
+                    <a href="#" class="flex-col ml-32"><img src="./images/linkedin.png" alt=""></a>
+        
+                    <a href="#" class="flex-col mr-32"><img src="./images/Fill 1 (1).svg" alt=""></a>
+                </section>
+            </div>
+        </section>
+        <!-- <section class="md:hidden sm:hidden border-t py-6 flex sm:justify-between md:justify-end">
+            <a href="#" class="flex-col ml-32"><img src="./images/linkedin.png" alt=""></a>
+
+            <a href="#" class="flex-col mr-32"><img src="./images/Fill 1 (1).svg" alt=""></a>
+        </section> -->
+        <section class="border-t py-6 flex justify-between items-center">
+            <div class="container mx-auto max-w-6xl px-5 flex flex-row md:flex-row justify-between mb-10">
+                <ul class="flex flex-row md:flex-row space-x-8 p-8 -mt-12">
+                    <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">AGB</a></li>
+                    <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">Privacy</a></li>
+                    <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">Cookies</a></li>
+                    <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">Impressum</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="text-xs text-black-200 items-center pl-20">@ 2020 Zengrowth. All rights reserved</div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="container mx-auto max-w-6wl px-5">
+        <main class="border-t flex justify-between">
+            <div class="w-1/2 mr-12 mt-4 ml-96 justify-end lg:w-4/6 lg:h-screen bg-cw-blue-100">
+            </div>
+            <div class="w-1/2">
+
+            </div>
+                <h2 class="lg:text-cw-gray-900 lg:text-xl lg:flex-col ml-88">Let us get to know you better.</h2>
+                <input class="placeholder-cw-blue-100 h-12 px-2 w-64 mt-8 font-lato border border-cw-gray-200 rounded-lg text-sm focus:bg-cw-gray-100 outline-none shadow-outline" type="text" placeholder="Fitstname" required>
+                <input class="placeholder-cw-gray-800 h-12 px-2 w-64 mt-8 font-lato border border-blue-300  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Lastname" required>
+                <input class="placeholder-cw-gray-800 h-12 px-2 w-64 lg:w-full mt-8 font-lato border border-orange-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="email" placeholder="Email" required>
+                <input class="placeholder-cw-gray-800 h-12 px-2 w-64 lg:w-full mt-8 font-lato border border-cw-gray-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Phone Number" required> 
+                <h2 class="font-bold mt-8">Tell as a bit more about your projecr:</h2>  
+                <div class="py-4 mb-8 hover:text-cw-gray-200">
+                    <textarea class="p-8 lg:w-full md:w-1/2 border-cw-gray-800 border-t outline-none shadow bg-white rounded-lg mt-6 text-cw-gray-200" cols="20" rows="6" placeholder="Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey."></textarea>
+                </div>
+                <h2 class="mt-6 text-l font-bold">What areas of marketing are you interested in?</h2>
+                <div class="lg:flex-col">
+                    <div class="flex items-center mt-6">
+                        <div>
+                            <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                            <label for="check"></label>
+                        </div> 
+                        <div class="ml-3 text-cw-gray-900">
+                            <span class="text-sm">Paid media and social</span> 
+                        </div>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <div>
+                            <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                            <label for="check"></label>
+                        </div> 
+                        <div class="text-text-cw-gray-900">
+                            <span class="text-sm">Content</span> 
+                        </div>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <div>
+                            <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                            <label for="check"></label>
+                        </div> 
+                        <div class="text-text-cw-gray-900">
+                            <span class="text-sm">Growth strategy</span> 
+                        </div>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <div>
+                            <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                            <label for="check"></label>
+                        </div> 
+                        <div class="text-text-cw-gray-900">
+                            <span class="text-sm">Tools & integrations</span> 
+                        </div>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <div>
+                            <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                            <label for="check"></label>
+                        </div> 
+                        <div class="text-text-cw-gray-900">
+                            <span class="text-sm">Lead Generation</span> 
+                        </div>
+                    </div>
+                    <div class="flex items-center mt-2">
+                        <div>
+                            <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                            <label for="check"></label>
+                        </div> 
+                        <div class="text-text-cw-gray-900">
+                            <span class="text-sm">Design or development</span> 
+                        </div>
+                    </div>
+                </div>
+                <h2 class="font-bold mt-6">What's your monthyl budget look like?</h2>
+                <section>
+                    <select name="cars" id="cars" class="w-full h-10 border-t shadow rounded-lg">
+                        <option value="" selected>Select Your Amount</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                </section>
+                <button class="bg-cw-blue-100 h-10 rounded-lg text-white w-full mt-2">START YOUR PROJECT</button>
+            </div>
+        </main>
+    </div>
+    <div class="relative flex lg:grid lg:grid-cols-2 w-4/6 h-4/6 bg-blue-300">
+
+    </div>
+     -->
+<!-- <svg width="1038" height="1149" viewBox="0 0 1038 1149" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect y="0.673096" width="1038" height="1148" fill="#182370"/>
+    
+</svg>
+<svg class="lg:flex" width="992" height="1149" viewBox="0 0 992 1149" fill="none" xmlns="http://www.w3.org/2000/svg">
+</svg> -->
+            
+<!-- <body class="">
+    <section class="lg:w-3/5 lg:grid lg:grid-col-2 xl:w-11/12 lg:bg-cw-purple-200">
+        <div class="lg:w-1/12 lg:grid lg:bg-cw-blue-100">
+            <main class="font-lato bg-white  lg:mt-16 absolute lg:ml-96 p-10">
+                <div class="md:w-1/2 mt-4 ml-10 lg:ml-96">
+                    <h2 class="lg:text-cw-gray-900 lg:text-xl lg:flex-col">Let us get to know you better.</h2>
+                    <input class="placeholder-cw-blue-100 h-12 px-2 w-64 mt-8 font-lato border border-cw-gray-200 rounded-lg text-sm focus:bg-cw-gray-100 outline-none shadow-outline" type="text" placeholder="Fitstname" required>
+                    <input class="placeholder-cw-gray-800 h-12 px-2 w-64 mt-8 font-lato border border-blue-300  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Lastname" required>
+                    <input class="placeholder-cw-gray-800 h-12 px-2 w-64 lg:w-full mt-8 font-lato border border-orange-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="email" placeholder="Email" required>
+                    <input class="placeholder-cw-gray-800 h-12 px-2 w-64 lg:w-full mt-8 font-lato border border-cw-gray-200  focus:bg-cw-gray-100 rounded-lg text-sm" type="text" placeholder="Phone Number" required> 
+                    <h2 class="font-bold mt-8">Tell as a bit more about your projecr:</h2>  
+                    <div class="py-4 mb-8 hover:text-cw-gray-200">
+                        <textarea class="p-6 lg:w-full md:w-1/2 border-cw-gray-800 border-t outline-none shadow bg-white rounded-lg mt-6 text-cw-gray-200" cols="20" rows="6" placeholder="Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey."></textarea>
+                    </div>
+                    <h2 class="mt-6 text-l font-bold">What areas of marketing are you interested in?</h2>
+                    <div class="lg:flex-col">
+                        <div class="flex items-center mt-6">
+                            <div>
+                                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                                <label for="check"></label>
+                            </div> 
+                            <div class="ml-3 text-cw-gray-900">
+                                <span class="text-sm">Paid media and social</span> 
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <div>
+                                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                                <label for="check"></label>
+                            </div> 
+                            <div class="text-text-cw-gray-900">
+                                <span class="text-sm">Content</span> 
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <div>
+                                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                                <label for="check"></label>
+                            </div> 
+                            <div class="text-text-cw-gray-900">
+                                <span class="text-sm">Growth strategy</span> 
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <div>
+                                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                                <label for="check"></label>
+                            </div> 
+                            <div class="text-text-cw-gray-900">
+                                <span class="text-sm">Tools & integrations</span> 
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <div>
+                                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                                <label for="check"></label>
+                            </div> 
+                            <div class="text-text-cw-gray-900">
+                                <span class="text-sm">Lead Generation</span> 
+                            </div>
+                        </div>
+                        <div class="flex items-center mt-2">
+                            <div>
+                                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg">
+                                <label for="check"></label>
+                            </div> 
+                            <div class="text-text-cw-gray-900">
+                                <span class="text-sm">Design or development</span> 
+                            </div>
+                        </div>
+                    </div>
+                    <h2 class="font-bold mt-6">What's your monthyl budget look like?</h2>
+                    <section>
+                        <select name="cars" id="cars" class="w-full h-10 border-t shadow rounded-lg">
+                            <option value="" selected>Select Your Amount</option>
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    </section>
+                    <button class="bg-cw-blue-100 h-10 rounded-lg text-white w-full mt-2">START YOUR PROJECT</button>
+                </div>
+            </main> 
+        </div>
+        <div class="sm:h-full lg:h-screen p-16 lg:grid lg:grid-cols-2"></div>
+            <div class="lg:w-full">
+                <h4 class="text-white font-medium text-4xl leading-tight border-b-2 border-blue-300 p-8 lg:-mt-96">Get in touch</h4>
+                <p class="text-white py-4 items-center">Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey.</p>
+            </div>
+            <div class="flex items-center mt-6">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="ml-3 text-white">
+                    <span class="text-sm">Predictable Lead Generation</span> 
+                </div>
+            </div>
+            <div class="flex items-center mt-2">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="text-white">
+                    <span class="text-sm">Rapid Marketing Experimentation</span> 
+                </div>
+            </div>
+            <div class="flex items-center mt-2">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="text-white">
+                    <span class="text-sm">Lower Customer Acquisition Costs</span> 
+                </div>
+            </div>
+            <div class="flex items-center mt-2">
+                <div>
+                    <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                    <label for="check"></label>
+                </div> 
+                <div class="text-white">
+                    <span class="text-sm">Increased Marketing ROI</span> 
+                </div>
+            </div>
+            <div class="border-b-2 border-blue-300 pb-4 mt-6">
+            </div>
+            <div class="md:flex mt-8 text-white text-xl">
+                <img src="./images/frm.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <footer class="">
+            <section class="border-t py-6 justify-center items-center">
+                <div class="container mx-auto max-w-xl px-5 flex flex-row md:flex-row justify-center ">
+                    
+                    <img src="./images/Fill 16.svg" alt=""><path fill-rule="evenodd" clip-rule="evenodd" d="M16.1213 0.639404L11.0459 15.5586L3.47113 13.0162L0.993164 5.61606L16.1213 0.639404Z" fill="#343DFF"/>
+                    <span class="flex text-xl font-lato text-cw-blue-100">Zengrowth</span>
+                </div>
+            </section>
+            <section class="border-t py-6 flex justify-between">
+                <a href="#" class="flex-col ml-32"><img src="./images/linkedin.png" alt=""></a>
+    
+                <a href="#" class="flex-col mr-32"><img src="./images/Fill 1 (1).svg" alt=""></a>
+            </section>
+            <section class="border-t py-6 flex justify-between items-center">
+                <div class="container mx-auto max-w-6xl px-5 flex flex-row md:flex-row justify-between mb-10">
+                    <ul class="flex flex-row md:flex-row space-x-8 p-8 mt-12">
+                        <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">AGB</a></li>
+                        <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">Privacy</a></li>
+                        <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">Cookies</a></li>
+                        <li><a href="#" class="text-cw-gray-800 font-bold hover:text-cw-blue-100 hover:underline py-2 md:py-0 text-sm">Impressum</a></li>
+                    </ul>
+                </div>
+            </section>
+            <div class="text-xs text-black-200 items-center pl-20">@ 2020 Zengrowth. All rights reserved</div>
+        </footer> 
+    </section> -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+</html>
+
+<!-- <section class="flex md:w-1/2 ml-auto w-full">
+    <div class="bg-cw-purple-200 md:w-1/2 p-16">
+        <div class="w-full">
+            <h4 class="text-white font-medium text-4xl leading-tight border-b-2 border-blue-300 pb-4">Get in touch</h4>
+            <p class="text-white py-4 items-center">Want to see how Zengrowth can help you and your team? We’ll listen to your story and propose a data-driven growth plan with channels that fit across your customer journey.</p>
+        </div>
+        <div class="flex items-center mt-6">
+            <div>
+                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                <label for="check"></label>
+            </div> 
+            <div class="ml-3 text-white">
+                <span class="text-sm">Predictable Lead Generation</span> 
+            </div>
+        </div>
+        <div class="flex items-center mt-2">
+            <div>
+                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                <label for="check"></label>
+            </div> 
+            <div class="text-white">
+                <span class="text-sm">Rapid Marketing Experimentation</span> 
+            </div>
+        </div>
+        <div class="flex items-center mt-2">
+            <div>
+                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                <label for="check"></label>
+            </div> 
+            <div class="text-white">
+                <span class="text-sm">Lower Customer Acquisition Costs</span> 
+            </div>
+        </div>
+        <div class="flex items-center mt-2">
+            <div>
+                <input type="checkbox" id="check" class="w-12 h-6 rounded-lg" checked>
+                <label for="check"></label>
+            </div> 
+            <div class="text-white">
+                <span class="text-sm">Increased Marketing ROI</span> 
+            </div>
+        </div>
+        <div class="border-b-2 border-blue-300 pb-4 mt-6">
+        </div>
+        <div class="mt-8 text-white text-xl">
+            <p>Trusted growth partner for hyper-growth companies:</p>
+            <section class="mt-6 flex justify-between">
+                <h2 class="font-bold flex-col mt-2">DEMODEX</h2>
+                <h2 class="flex font-bold mt-2">Team<span class="flex-col">Viewer</span></h2>
+            </section>
+            <section class="mt-6 flex justify-between">
+                <h2 class="font-bold mt-2">URBAN SPORT CLUB</h2>
+                <h2 class="flex font-bold mt-2">LOYALTY | PRIME</h2>
+            </section>
+        </div>
+    </div>
+</section> -->
